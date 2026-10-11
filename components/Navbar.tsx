@@ -43,7 +43,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-8 text-sm text-parchment/70">
           {links.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="hover:text-brass33 transition-colors">
+              <a href={l.href} className="hover:text-brass33 hover:text-yellow-400 hover:text-xl transition-colors">
                 {l.label}
               </a>
             </li>
